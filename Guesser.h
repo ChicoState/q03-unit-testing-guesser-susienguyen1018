@@ -22,7 +22,7 @@ private:
     the secret; in other words, if m_secret has a 10 characters and the guess
     has 100, the distance is 10.
   */
-  unsigned int distance(string guess);
+  unsigned int distance(string guess); //good helper function, can remove it if u want but prof hint to keep it
 
 public:
   /*
